@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+   <TextView
+       android:textColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:text="SEU IMC É:"
+       android:textAlignment="center"
+       android:textStyle="bold"
+       android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textviem_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="27.104"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textview_Classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:text="Classificação É: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRA A TABELA ABAIXO"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#0FAE9F" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:srcCompat="@drawable/tabelaimc2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="É muito importante lembrar que, embora o IMC seja a principal referência, profissionais de saúde vão observar detalhadamente outros parâmetros, em um exame clínico detalhado, tais como idade, estilo de vida, medidas da circunferência abdominal, % de gordura corporal, taxa de colesterol, entre outros. "
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+
+</LinearLayout>

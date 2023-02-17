@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/edittxtpeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edttxtaltura"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Digite seu peso"
+        android:inputType="numberDecimal"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/edttxtaltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCaucular"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Digite sua altura"
+        android:inputType="numberDecimal"
+        android:maxLength="8" />
+
+    <Button
+        android:id="@+id/btnCaucular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="CAUCULAR"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="IMC é uma sigla que tem como significado Índice de Massa Corporal. O Índice de Massa Corporal mede qual é o nível de gordura no organismo de uma pessoa."
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_above="@+id/edittxtpeso"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/logoimc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="59dp"
+        android:layout_above="@+id/edttxtaltura"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/balancaimc" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_marginBottom="-121dp"
+        app:srcCompat="@drawable/fitametrica" />
+
+
+</RelativeLayout>
