@@ -27,7 +27,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Melhorar estilização do app
 
 ## Author
-Roneibson Mendes (follow me on [Linkedin](linkedin.com/in/roneibson-mendes-421034263//))
+Roneibson Mendes (follow me on [Linkedin](https//linkedin.com/roneibsonmendes))
 
 ## License
 ```
