@@ -15,6 +15,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
     * LinearLayout
 - Components de UI
     - TextView
+    - ImageView
     - EditText
     - Button
 - Toast para display de mensagens
